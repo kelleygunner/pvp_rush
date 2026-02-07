@@ -1,0 +1,8 @@
+{
+  "name": "com.pvprush.shared",
+  "version": "0.0.1",
+  "author": "Anatolii",
+  "description": "Shared Logic for PvpRush",
+  "dependencies": {
+  }
+}

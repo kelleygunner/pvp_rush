@@ -1,0 +1,14 @@
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/bin/Debug/net9.0/PvpRushServer
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/bin/Debug/net9.0/PvpRushServer.deps.json
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/bin/Debug/net9.0/PvpRushServer.runtimeconfig.json
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/bin/Debug/net9.0/PvpRushServer.dll
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/bin/Debug/net9.0/PvpRushServer.pdb
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.AssemblyInfoInputs.cache
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.AssemblyInfo.cs
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.csproj.CoreCompileInputs.cache
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.dll
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/refint/PvpRushServer.dll
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.pdb
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/PvpRushServer.genruntimeconfig.cache
+/Users/anatoly/Desktop/Projects/PvpRush/server/PvpRushServer/obj/Debug/net9.0/ref/PvpRushServer.dll
