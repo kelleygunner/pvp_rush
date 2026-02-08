@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.pvprush.shared": {
-      "version": "file:/Users/anatoly/Desktop/Projects/PvpRush/shared",
+      "version": "file:/Users/anatoly/Desktop/Projects/pvp_rush/shared",
       "depth": 0,
       "source": "local",
       "dependencies": {}

@@ -1,4 +1,4 @@
-namespace PvpRush.Shared.Network
+namespace PvpRush.Shared.Api.ValueTypes
 {
     public enum MessageType : byte
     {

@@ -1,0 +1,16 @@
+{
+    "name": "Game.Network",
+    "rootNamespace": "Game.Network",
+    "references": [
+        "GUID:ffc23675466e54f709ee6cb98b0f1682"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

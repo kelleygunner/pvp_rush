@@ -1,5 +1,4 @@
-// ReSharper disable once CheckNamespace
-namespace PvpRush.Shared.Network
+namespace PvpRush.Shared.Api
 {
     public static class ConnectionConfig
     {
