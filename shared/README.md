@@ -28,3 +28,9 @@ Shared Logic provides centralized config values to keep both sides aligned:
 In Shared Logic, I implemented the core rules for packet creation—defining exactly how many bytes are used for the header and what each byte represents. This creates a consistent byte-interpretation system for both sides.
 
 Since all messages are defined within Shared Logic, I can ensure they are always interpreted correctly and converted into the proper message-specific structures. Shared Logic doesn't need to know *how* a message will be processed; its job is to validate the message, dispatch the correct type, deserialize it into a known structure, and hand it over to the endpoint for processing.
+
+### Packet Buffer Scope
+The main idea is to allocate as little memory as possible. While some messages might be delayed, batched, or scheduled - requiring Heap memory - and large messages also need to reside there, the majority of traffic consists of simple player Move/Rotate updates. 
+
+These messages are small and sent every single frame. To handle them, I use `stackalloc` to avoid Heap allocations entirely. This creates a zero-allocation workflow: I allocate bytes on the stack, pack the player's Position/Rotation components, send them via UDP, and the memory is reclaimed as soon as the execution leaves the current scope.
+
