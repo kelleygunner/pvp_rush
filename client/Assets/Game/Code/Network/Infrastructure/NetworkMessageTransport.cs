@@ -7,7 +7,7 @@ namespace Game.Network.Infrastructure
 {
     public class NetworkMessageTransport : IMessageSender
     {
-        public bool TrySendMessage(Span<byte> buffer)
+        public bool TrySendMessage(ReadOnlySpan<byte> buffer)
         {
             Debug.Log($"NetworkMessageTransport.TrySendMessage(buffer)");
             return true;

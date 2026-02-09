@@ -7,18 +7,18 @@ namespace Game.Network.Api
 {
     public class NetworkMessageController
     {
-        private readonly MessageSendService _messageSendService;
+        private readonly INetworkPort _messageSendService;
 
         public NetworkMessageController()
         {
             var networkMessageTransport = new NetworkMessageTransport();
-            _messageSendService = new MessageSendService(networkMessageTransport);
+            _messageSendService = NetworkPortComposition.Create(networkMessageTransport);
         }
         
         public void Ping()
         {
             var message = new PingMessage(124777);
-            _messageSendService.SendMessage(message);
+            _messageSendService.SendMessageAndForget(message);
         }
     }
 }
